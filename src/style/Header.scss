@@ -5,12 +5,13 @@
   align-items: center;
   margin: 0.5rem 1rem 0rem 1rem;
   font-family: 'Shadows Into Light', cursive;
-  color: $pink;
+  color: $light-blue;
 }
 
 .hero-title {
   margin: 0;
   color: $pink;
+  text-decoration: none;
 }
 
 .logo-title {
@@ -19,13 +20,16 @@
 
 .nav-item {
   margin-left: 1rem;
+  color: $pink;
+  &:hover {
+    color: $light-blue;
+    display: inline-block;
+    transform: scale(1.5);
+  }
 }
+
 
 
 .hero-slogan {
   margin: 0;
-}
-
-.point-icon{
-  font-size: 10rem;
 }
