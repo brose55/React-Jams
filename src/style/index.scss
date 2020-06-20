@@ -5,7 +5,6 @@
 html {
   background: url('/assets/images/bg.jpg') no-repeat center center fixed;
   @include bg-size(cover);
-  min-height: $fill;
   font-family: 'Lato', sans-serif;
 }
 
@@ -13,7 +12,6 @@ body {
   display: flex;
   padding: 0px;
   margin: 0px;
-  min-height: inherit;
 }
 
 ::-webkit-scrollbar {
@@ -22,7 +20,7 @@ body {
 
 #root {
   min-width: 100vw;
-  min-height: inherit;
+
 }
 
 .flex {
@@ -31,4 +29,18 @@ body {
 
 .grid {
   display: grid;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin: 0.4rem 0 0.4rem 0;
 }
