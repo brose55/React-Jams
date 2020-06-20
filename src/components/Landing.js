@@ -6,7 +6,7 @@ const Landing = () => (
       <div className="landing">
 
         <div className="selling-points flex">
-          <section className='point-group grid'>
+          <section className='point-group first grid'>
             <Link to="/library" className="point-icon"><ion-icon name="musical-notes"></ion-icon></Link>
             <div className ="point">
               <h2 className="point-title">Choose your music</h2>
