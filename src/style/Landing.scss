@@ -1,0 +1,35 @@
+@import 'vars';
+@import 'mixins';
+@import 'place-holders';
+
+.landing {
+  background: url('/assets/images/mic.jpg') no-repeat center center fixed;
+  @include bg-size(cover);
+  min-height: 100vh;
+  margin: 0 7.5% 0 7.5%;
+}
+
+.selling-points {
+  flex-direction: column;
+}
+
+.point-group {
+  margin: 0 20% 0 20%;
+  grid-template-columns: 1fr 5fr;
+}
+
+.point-icon {
+  align-self: center;
+}
+
+.point {
+  justify-self: end;
+}
+
+.point-title-2 {
+  margin: 0;
+}
+
+.point-title {
+  margin-bottom: 0;
+}
