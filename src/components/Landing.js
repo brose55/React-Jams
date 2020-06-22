@@ -4,7 +4,6 @@ import '../style/Landing.scss';
 
 const Landing = () => (
       <div className="landing">
-
         <div className="selling-points flex">
           <section className='point-group first grid'>
             <Link to="/library" className="point-icon"><ion-icon name="musical-notes"></ion-icon></Link>
@@ -18,7 +17,7 @@ const Landing = () => (
             <Link to="/library" className="point-icon"><ion-icon name="microphone"></ion-icon></Link>
             <div className ="point middle">
               <h2 className="point-title">Unlimitted ad-free</h2>
-              <h2 className="point-title">streaming</h2>
+              <h2 className="point-title large">streaming</h2>
               <p className="point-description"><b>No</b> arbitrary limits.</p>
               <p className="point-description"><b>No</b> distractions.</p>
             </div>
