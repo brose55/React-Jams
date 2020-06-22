@@ -1,0 +1,70 @@
+@import 'vars';
+
+.album {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto 20vh;
+	grid-template-areas: "s a"
+	                     "p p";
+	grid-gap: 5rem;
+	justify-content: center;
+}
+
+#album-cover-art {
+  height: auto;
+  width: 25rem;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#song-list {
+	grid-area: s;
+	font-size: 1.8rem;
+	max-width: 85%;
+	height: auto;
+	align-self: center;
+  justify-self: stretch;
+  margin-left: 4rem;
+}
+
+#album-info {
+	grid-area: a;
+  padding-top: 2rem;
+  justify-self: end;
+}
+
+.pb {
+	grid-area: p;
+}
+
+.album-details {
+	display: flex;
+	align-items: center;
+  color: $light-blue;
+  padding-left: .5rem;
+}
+
+#album-title {
+  padding-left: 1rem;
+}
+
+#release-info {
+  padding-left: 2rem;
+  font-size: .5rem;
+}
+
+td {
+  padding: 1vw;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  color: white;
+}
+
+tr {
+  border-bottom: 1px solid $pink;
+  &:last-child {
+    border: none;
+  }
+}

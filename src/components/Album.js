@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import albumData from './../data/albums';
 import PlayerBar from './PlayerBar';
-// import '../style/Album.css';
+import '../style/Album.scss';
 
 class Album extends Component {
   constructor(props) {
@@ -115,22 +115,22 @@ class Album extends Component {
           <tbody>
             {
               songs.map( (song, i) =>
-                <tr className="song"
-										key={title + song + i}
-										onClick={() => this.handleSongClick(song)}
-										onMouseEnter={() => this.setState({isHovered: i + 1})}
-	                  onMouseLeave={() => this.setState({isHovered: false})}>
-	                  <td className="song-actions">
-	                    <button>
-	                      {
-	                        (this.state.currentSong.title === song.title) ?
+                <tr className='song'
+                  key={title + song + i}
+                  onClick={() => this.handleSongClick(song)}
+                  onMouseEnter={() => this.setState({isHovered: i + 1})}
+                  onMouseLeave={() => this.setState({isHovered: false})}>
+                  <td className="song-actions">
+                    <button>
+                      {
+                        (this.state.currentSong.title === song.title) ?
 	                        <ion-icon name={this.state.isPlaying ? "pause" : "play"}></ion-icon> :
 	                        (this.state.isHovered === i + 1) ?
-	                        <ion-icon name="play"></ion-icon> :
-	                        <span className="song-number">{i + 1}</span>
-	                      }
-	                    </button>
-	                  </td>
+                            <ion-icon name="play"></ion-icon> :
+                            <span className="song-number">{i + 1}</span>
+                      }
+                    </button>
+                  </td>
                   <td>{song.title}</td>
                   <td>{this.formatTime(song.duration)}</td>
                 </tr>)
@@ -140,8 +140,8 @@ class Album extends Component {
 				<div id="album-info">
 					<img id="album-cover-art" src={albumCover} alt='cover art' />
 					<div className="album-details">
-						<h2 className="artist">{artist} - </h2>
-						<h2 id="album-title">{title}</h2>
+						<h3 className="artist">{artist} <span style={{'padding-left': '1rem'}}>-</span> </h3>
+						<h3 id="album-title"><em>{title}</em></h3>
 						<div id="release-info">{releaseInfo}</div>
 					</div>
 				</div>
