@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import albumData from './../data/albums';
-// import '../style/Library.css';
+import '../style/Library.scss';
 
 const Library = ({setRoute}) => {
   const [albums] = useState(albumData)

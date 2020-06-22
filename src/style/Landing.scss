@@ -5,11 +5,11 @@
 .landing {
   background: url('/assets/images/mic.jpg') no-repeat center center fixed;
   @include bg-size(cover);
-  margin: 0 7.5% 0 7.5%;
 }
 
 .selling-points {
   flex-direction: column;
+  text-align: center;
 }
 
 .point-group {
@@ -41,5 +41,5 @@
   padding-top: 7%;
 }
 
-.top {
+.large {
 }
