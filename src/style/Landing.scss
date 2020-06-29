@@ -13,8 +13,8 @@
 }
 
 .point-group {
-  margin: 0 20% 0 20%;
-  grid-template-columns: 1fr 3fr;
+  margin: 0 10% 0 15%;
+  grid-template-columns: 1fr 1.5fr;
 }
 
 .first {
@@ -22,6 +22,7 @@
 }
 
 .point-icon {
+  justify-self: center;
   align-self: center;
   font-size: 10rem;
   color: $purple;

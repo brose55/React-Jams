@@ -19,12 +19,12 @@ const Header = ({route, setRoute}) => {
       <h1 className='hero-slogan'>Choose your own music!</h1>
 
       <nav>
-        {/* Conditionally renders the navbar based off the route hook in App.js */
+        {/* Conditionally renders the navbar based off the route hook in App.js. Beware of the chained ternary operator! */
           route === 'album'
             ? (
               <div className='flex nav-bar'>
                 <Link to='/' className='nav-item' onClick={() => setRoute('landing')}>
-                  Landing
+                  Home
                 </Link>
                 <Link to="/library" className='nav-item' onClick={() => setRoute('library')}>
                   Library
