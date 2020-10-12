@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Jams/static/css/main.4ef17b58.chunk.css",
+    "main.js": "/React-Jams/static/js/main.d6caefb3.chunk.js",
+    "main.js.map": "/React-Jams/static/js/main.d6caefb3.chunk.js.map",
+    "runtime-main.js": "/React-Jams/static/js/runtime-main.6fabea93.js",
+    "runtime-main.js.map": "/React-Jams/static/js/runtime-main.6fabea93.js.map",
+    "static/js/2.dc5afffe.chunk.js": "/React-Jams/static/js/2.dc5afffe.chunk.js",
+    "static/js/2.dc5afffe.chunk.js.map": "/React-Jams/static/js/2.dc5afffe.chunk.js.map",
+    "index.html": "/React-Jams/index.html",
+    "precache-manifest.75420fe1dfc52c86f407313c6475533f.js": "/React-Jams/precache-manifest.75420fe1dfc52c86f407313c6475533f.js",
+    "service-worker.js": "/React-Jams/service-worker.js",
+    "static/css/main.4ef17b58.chunk.css.map": "/React-Jams/static/css/main.4ef17b58.chunk.css.map",
+    "static/js/2.dc5afffe.chunk.js.LICENSE.txt": "/React-Jams/static/js/2.dc5afffe.chunk.js.LICENSE.txt",
+    "static/media/heart-beat.png": "/React-Jams/static/media/heart-beat.bf658d27.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fabea93.js",
+    "static/js/2.dc5afffe.chunk.js",
+    "static/css/main.4ef17b58.chunk.css",
+    "static/js/main.d6caefb3.chunk.js"
+  ]
+}
