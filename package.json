@@ -1,6 +1,5 @@
 {
   "name": "music-player",
-  "homepage": "https://brose55.github.io/React-Jams",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,8 +15,7 @@
     "typescript": "^3.9.5"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build && mv build/index.html build/200.html && surge build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
